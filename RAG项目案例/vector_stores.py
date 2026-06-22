@@ -19,7 +19,7 @@ class VectorStoreService(object):
 
 if __name__ == "__main__":
     from langchain_community.embeddings import DashScopeEmbeddings
-    retriever = VectorStoreService(DashScopeEmbeddings(model = "text-embedding-v4",dashscope_api_key = "sk-072e89ab0d374bb3acb6a80cd8cb344f")).get_retriever()
+    retriever = VectorStoreService(DashScopeEmbeddings(model = "text-embedding-v4",dashscope_api_key = "你的api_key")).get_retriever()
 
     res = retriever.invoke("我的校园卡丢了，怎么补办")
     print(res)
