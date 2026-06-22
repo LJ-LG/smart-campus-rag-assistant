@@ -1,0 +1,25 @@
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# Python 缓存垃圾
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# 向量数据库、聊天记录（不上传）
+chroma_db/
+chat_history/
+
+# PyCharm 配置文件夹
+.idea/
+
+# 存放API密钥的环境文件，防止密钥泄露扣费
+.env
+*.env
+
+# Windows 系统垃圾文件
+Thumbs.db
+.DS_Store
