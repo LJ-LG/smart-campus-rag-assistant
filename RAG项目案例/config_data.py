@@ -18,7 +18,7 @@ embedding_model_name = "text-embedding-v4"
 chat_model_name = "qwen3-max"
 
 # 阿里云通义千问 DashScope API密钥
-dashscope_api_key = "sk-072e89ab0d374bb3acb6a80cd8cb344f"
+dashscope_api_key = "你的api_key"
 
 session_config = {
     "configurable": {
